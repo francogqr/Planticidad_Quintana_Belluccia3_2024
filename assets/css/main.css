@@ -25,8 +25,8 @@
   --background-color: #F5EEE5; /* Background color for the entire website, including individual sections */
   --default-color: #444444; /* Default color used for the majority of the text content across the entire website */
   --heading-color: #123727; /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #FF8B00; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
-  --contrast-color: #000000; /* The contrast color is used for elements when the background color is one of the heading, accent, or default colors. Its purpose is to ensure proper contrast and readability when placed over these more dominant colors */
+  --accent-color: #AE4410; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+  --contrast-color: #ffffff; /* The contrast color is used for elements when the background color is one of the heading, accent, or default colors. Its purpose is to ensure proper contrast and readability when placed over these more dominant colors */
 }
 
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
@@ -85,7 +85,7 @@ h1 {
 }
 
 .header .logo img {
-  max-height: 36px;
+  max-height: 23px;
   margin-right: 8px;
 }
 
@@ -137,7 +137,7 @@ h1 {
 /* Index Page Header
 ------------------------------*/
 .index-page .header {
-  --background-color: #F9E8D1;
+  --background-color: #CDB799;
 }
 
 /* Index Page Header on Scroll
@@ -824,11 +824,34 @@ section,
   background-color: #123727;
 }
 
+/*
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  align-self: stretch;
+  flex-wrap: wrap;
+}
+*/
+
+
+
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-.5 * var(--bs-gutter-x));
+  margin-left: calc(-.5 * var(--bs-gutter-x));
+  justify-content: center;
+}
+
 .hero h1 {
   margin: 0;
   font-size: 48px;
   line-height: 56px;
-  color: #C2B851;
+  color: #F5EEE5;
 }
 
 .hero p {
