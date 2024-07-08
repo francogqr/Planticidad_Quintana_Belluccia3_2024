@@ -146,7 +146,7 @@ Roboto: CSS classes
 
 <body class="index-page">
 
-  <header id="header" class="header d-flex align-items-center fixed-top">
+  <header id="header" class="header d-flex align-items-center sticky-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center">
 
       <a href="index.html" class="logo d-flex align-items-center me-auto">
@@ -173,14 +173,27 @@ Roboto: CSS classes
 
   <main class="main">
 
+    <!-- Page Title -->
+    <div class="page-title">
+      <nav class="breadcrumbs">
+        <div class="container">
+          <ol>
+            <li><a href="index.html" >INICIO</a></li>
+            <li class="talleres">TALLERES</li>
+            <li class="current">TALLER TuVerde</li>
+          </ol>
+        </div>
+      </nav>
+    </div><!-- End Page Title -->
+
     <!-- #1 SECCCION DE HERO -->
-    <section id="hero" class="hero section">
+    <section id="hero_taller" class="hero-taller section">
 
       
 
       <div class="container">
         <div class="row gy-4">
-          <p>Home <span>></span> Taller</p>
+          
           <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
             <h1 data-aos="fade-up">Taller TuVerde: Tu Iniciación en la Jardinería Urbana</h1>
             <p data-aos="fade-up" data-aos-delay="100">Aprende todo lo necesario para comenzar tu propio huerto urbano. Desde botánica básica hasta técnicas de cultivo avanzadas.</p>
@@ -202,8 +215,8 @@ Roboto: CSS classes
 
           <!-- Section Title -->
           <div class="container section-title" data-aos="fade-up">
-            <h2>SERVICIOS</h2>
-            <p>Objetivos del curso<br></p>
+            <h2 class="section-title-red">SERVICIOS</h2>
+            <p class="title-section-white">Objetivos del curso<br></p>
           </div><!-- End Section Title -->
     
           <div class="container">
@@ -241,12 +254,12 @@ Roboto: CSS classes
         </section><!-- /Services Section -->
     
             <!-- #3 MÒDULOS -->
-    <section id="faq" class="faq section">
+    <section id="modulo" class="modulo section">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>MÓDULOS</h2>
-        <p>Contenido del Taller</p>
+        <h2 class="section-title-red">MÓDULOS</h2>
+        <p class="title-section-white">Contenido del Taller</p>
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -360,8 +373,8 @@ Roboto: CSS classes
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>GALERÍA</h2>
-        <p>Galería del Taller</p>
+        <h2 class="section-title-yellow">GALERÍA</h2>
+        <p class="title-section-green">Galería del Taller</p>
       </div><!-- End Section Title -->
 
       <div class="container">
