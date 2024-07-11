@@ -166,7 +166,7 @@ Roboto: CSS classes
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
-      <a class="btn-getstarted flex-md-shrink-0" href="index.html#about">Explorar talleres</a>
+      <a class="btn-getstarted flex-md-shrink-0" href="index.html#about">Comprar ahora</a>
 
     </div>
   </header>
@@ -180,7 +180,7 @@ Roboto: CSS classes
           <ol>
             <li><a href="index.html" >INICIO</a></li>
             <li class="talleres">TALLERES</li>
-            <li class="current">TALLER TuVerde</li>
+            <li class="current">TuVerde</li>
           </ol>
         </div>
       </nav>
@@ -197,8 +197,14 @@ Roboto: CSS classes
           <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
             <h1 data-aos="fade-up">Taller TuVerde: Tu Iniciación en la Jardinería Urbana</h1>
             <p data-aos="fade-up" data-aos-delay="100">Aprende todo lo necesario para comenzar tu propio huerto urbano. Desde botánica básica hasta técnicas de cultivo avanzadas.</p>
+            <ul>
+              <li><b>Nivel:</b>Completo</li>
+              <li><b>Duración:</b> 20 clases</li>
+              <li><b>Horarios:</b> Lunes y Jueves (10:00 a 12:00)</li>
+            </ul>
+            <div class="price"><sup>$</sup>60.000</div>
             <div class="d-flex flex-column flex-md-row" data-aos="fade-up" data-aos-delay="200">
-              <a href="#about" class="btn-get-started">Conocé más <i class="bi bi-arrow-right"></i></a>
+              <a href="#about" class="btn-get-started">Comprar ahora</a>
               <!-- <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox btn-watch-video d-flex align-items-center justify-content-center ms-0 ms-md-4 mt-4 mt-md-0"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>-->
             </div>
           </div>
@@ -225,7 +231,7 @@ Roboto: CSS classes
     
               <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
                 <div class="service-item item-cyan position-relative">
-                  <i class="bi bi-activity icon"></i>
+                  <img src="assets/img/icons/t-i1.png" class="icon-services" alt="">
                   <h3>Actividades prácticas y teóricas</h3>
                   <p>Participarás en actividades prácticas y teóricas, diseñando y cultivando tu propio huerto urbano.</p>
                 </div>
@@ -233,7 +239,7 @@ Roboto: CSS classes
     
               <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
                 <div class="service-item item-orange position-relative">
-                  <i class="bi bi-broadcast icon"></i>
+                  <img src="assets/img/icons/t-i2.png" class="icon-services" alt="">
                   <h3>Manejo y Cuidado de Plantas</h3>
                   <p>Aprenderás técnicas de jardinería urbana, manejo de suelos, y muchas cosas más.</p>
                 </div>
@@ -241,7 +247,7 @@ Roboto: CSS classes
     
               <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
                 <div class="service-item item-teal position-relative">
-                  <i class="bi bi-easel icon"></i>
+                  <img src="assets/img/icons/t-i3.png" class="icon-services" alt="">
                   <h3>Mejora tu Entorno Verde</h3>
                   <p>Podrás transformar cualquier espacio pequeño en un oasis verde.</p>
                 </div>
@@ -501,37 +507,31 @@ Roboto: CSS classes
       
 
     <!-- #5 CERTIFICADOS -->
-    <section id="about" class="about section">
+    <section id="hero" class="hero section">
 
-      <div class="container" data-aos="fade-up">
-        <div class="row gx-0">
-
-          <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
-            <div class="content">
-              
-              <h2>Reconocimiento de Tu Aprendizaje.</h2>
-              <p>
-                Al completar el Taller TuVerde, recibirás un certificado que valida tus conocimientos en jardinería urbana, destacando tu habilidad para crear y mantener huertos sostenibles en espacios reducidos.
-              </p>
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
+            <h1 data-aos="fade-up">Reconocimiento de Tu Aprendizaje.</h1>
+            <p data-aos="fade-up" data-aos-delay="100">Al completar el Taller TuVerde, recibirás un certificado que valida tus conocimientos en jardinería urbana, destacando tu habilidad para crear y mantener huertos sostenibles en espacios reducidos.</p>
+            <div class="d-flex flex-column flex-md-row" data-aos="fade-up" data-aos-delay="200">
             </div>
           </div>
-
-          <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
-            <img src="assets/img/collage4.png" class="img-fluid" alt="">
+          <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-out">
+            <img src="assets/img/collage4.png" class="img-fluid animated" alt="">
           </div>
-
         </div>
       </div>
 
-    </section><!-- /About Section -->
+    </section><!-- /Hero Section -->
 
     <!-- #6 TESTIMONIOS -->
         <section id="testimonials" class="testimonials section">
 
           <!-- Section Title -->
           <div class="container section-title" data-aos="fade-up">
-            <h2>testimonios</h2>
-            <p>Lo Que Dicen Nuestros Alumnos<br></p>
+            <h2 class="section-title-red">testimonios</h2>
+            <p class="title-section-white">Lo Que Dicen Nuestros Alumnos<br></p>
           </div><!-- End Section Title -->
     
           <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -653,12 +653,12 @@ Roboto: CSS classes
         </section><!-- /Testimonials Section -->
 
     <!-- #7 MEDIOS DE PAGO -->
-    <section id="clients" class="clients section">
+    <section id="pagos" class="pagos section">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>PAGO</h2>
-        <p>Medios de pago<br></p>
+        <h2 class="section-title-red">PAGO</h2>
+        <p class="title-section-white">Medios de pago<br></p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -698,14 +698,12 @@ Roboto: CSS classes
             }
           </script>
           <div class="swiper-wrapper align-items-center">
-            <div class="swiper-slide"><img src="assets/img/clients/client-1.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-2.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-3.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-9.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-10.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-11.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-12.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-13.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-14.png" class="img-fluid" alt=""></div>
           </div>
           <div class="swiper-pagination"></div>
         </div>
@@ -719,8 +717,8 @@ Roboto: CSS classes
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>PREGUNTAS FRECUENTES</h2>
-        <p>Preguntas Frecuentes</p>
+        <h2  class="section-title-red">PREGUNTAS FRECUENTES</h2>
+        <p class="title-section-white">Preguntas Frecuentes</p>
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -798,12 +796,12 @@ Roboto: CSS classes
     </section><!-- /Faq Section -->
 
                     <!-- #9 TALLERES -->
-    <section id="pricing" class="pricing section">
+    <section id="mastalleres" class="mastalleres section">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>TALLERES</h2>
-        <p>Nuestros Talleres<br></p>
+        <h2 class="section-title-red">TALLERES</h2>
+        <p class="title-section-white">Nuestros Talleres<br></p>
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -812,10 +810,10 @@ Roboto: CSS classes
 
           <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="100">
             <div class="pricing-tem">
-              <h3 style="color: #20c997;">Jardinería Básica</h3>
+              <h3 style="color: #12372E;">Jardinería Básica</h3>
               <div class="price"><sup>$</sup>15.000</div>
               <div class="icon">
-                <i class="bi bi-box" style="color: #20c997;"></i>
+                <i class="bi bi-box" style="color: #12372E;"></i>
               </div>
               <ul>
                 <li>Fundamentos de jardinería</li>
@@ -846,10 +844,10 @@ Roboto: CSS classes
 
           <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="400">
             <div class="pricing-tem">
-              <h3 style="color: #0d6efd;">Huerto Vertical</h3>
+              <h3 style="color: #12372E;">Huerto Vertical</h3>
               <div class="price"><sup>$</sup>22.000</div>
               <div class="icon">
-                <i class="bi bi-rocket" style="color: #0d6efd;"></i>
+                <i class="bi bi-rocket" style="color: #12372E;"></i>
               </div>
               <ul>
                 <li>Diseño de huertos verticales</li>
@@ -871,8 +869,8 @@ Roboto: CSS classes
 
                           <!-- Section Title -->
                           <div class="container section-title" data-aos="fade-up">
-                            <h2>CONTACTO</h2>
-                            <p>Contáctanos para Más Información</p>
+                            <h2 class="section-title-red">CONTACTO</h2>
+                            <p class="title-section-white">Contáctanos para Más Información</p>
                           </div><!-- End Section Title -->
                     
                           <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -963,13 +961,31 @@ Roboto: CSS classes
 
   </main>
 
+  <!-- #11 FOOTER -->
   <footer id="footer" class="footer">
+
+    <!--<div class="footer-newsletter">
+      <div class="container">
+        <div class="row justify-content-center text-center">
+          <div class="col-lg-6">
+            <h4>Join Our Newsletter</h4>
+            <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
+            <form action="forms/newsletter.php" method="post" class="php-email-form">
+              <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="Subscribe"></div>
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Your subscription request has been sent. Thank you!</div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>-->
 
     <div class="container footer-top">
       <div class="row gy-4">
         <div class="col-lg-4 col-md-6 footer-about">
           <a href="index.html" class="d-flex align-items-center">
-            <span class="sitename">FlexStart</span>
+            <img src="assets/img/logo.png" class="logo-footer" alt="">
           </a>
           <div class="footer-contact pt-3">
             <p>Av. Siempre Verde 1234,</p>
@@ -980,28 +996,30 @@ Roboto: CSS classes
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Useful Links</h4>
+          <h4>Empresa</h4>
           <ul>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
+            <li><i ></i> <a href="#">Inicio</a></li>
+            <li><i ></i> <a href="#">Servicios</a></li>
+            <li><i ></i> <a href="#">Talleres</a></li>
+            <li><i ></i> <a href="#">Equipo</a></li>
+            <li><i ></i> <a href="#">Blog</a></li>
+            <li><i ></i> <a href="#">Contacto</a></li>
           </ul>
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Our Services</h4>
+          <h4>Soporte</h4>
           <ul>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Web Design</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Web Development</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Product Management</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Marketing</a></li>
+            <li><i ></i> <a href="#">Política de Privacidad</a></li>
+            <li><i ></i> <a href="#">Términos y Condiciones</a></li>
+            <li><i ></i> <a href="#">Botón de arrepentimiento</a></li>
+            <li><i ></i> <a href="#">Ayuda</a></li>
           </ul>
         </div>
 
         <div class="col-lg-4 col-md-12">
-          <h4>Follow Us</h4>
-          <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
+          <h4>Seguinos</h4>
+          <p>Te invitamos a seguirnos en nustras redes y ver a nuestra comunidad activa</p>
           <div class="social-links d-flex">
             <a href=""><i class="bi bi-twitter-x"></i></a>
             <a href=""><i class="bi bi-facebook"></i></a>
@@ -1014,7 +1032,7 @@ Roboto: CSS classes
     </div>
 
     <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">Planticidad</strong> <span>All Rights Reserved</span></p>
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Planticidad</strong> <span>Todos los derechos reservados</span></p>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
         <!-- You can delete the links only if you've purchased the pro version. -->
