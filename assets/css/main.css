@@ -901,11 +901,11 @@ section,
   width: 100%;
   /*min-height: 100vh;*/
   position: relative;
-  padding: 80px 0 60px 0;
+  padding: 40px 0 60px 0;
   display: flex;
   align-items: center;
-  /*background: url(../img/hero-bg.png) top center no-repeat;
-  background-size: cover;*/
+  background: url(../img/hero_taller-background.png) bottom center no-repeat;
+  background-size: cover;
   background-color: #F5EEE5;
 }
 
@@ -915,6 +915,7 @@ section,
   font-family: "Skranji", system-ui;
   font-weight: 400;
   font-style: normal;
+  margin-bottom: 5px;
 }
 
 .hero-taller ul {
@@ -943,9 +944,48 @@ section,
   padding: 80px 0 60px 0;
   display: flex;
   align-items: center;
-  /*background: url(../img/hero-bg.png) top center no-repeat;
-  background-size: cover;*/
+  background: url(../img/introtalleres_home-background.png) top center no-repeat;
+  background-size: cover;
   background-color: #D7B898;
+}
+
+.descanso-section {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  padding: 80px 0 60px 0;
+  display: flex;
+  align-items: center;
+  background: url(../img/descanso_home-background.png) top center no-repeat;
+  background-size: cover;
+
+}
+
+.certificado-section {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  padding: 80px 0 60px 0;
+  display: flex;
+  align-items: center;
+  /*background: url(../img/hero_home-background.png) top center no-repeat;*/
+  background-size: cover;
+  background-position: bottom;
+  background-color: #123727;
+}
+
+.certificado-section h2 {
+  font-family: "Skranji", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color: #F5EEE5;
+}
+
+.certificado-section p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #F5EEE5;
 }
 
 /*
@@ -1078,6 +1118,45 @@ section,
   color: #123727;
   background: color-mix(in srgb, #FFC977, transparent 0%);
 
+}
+
+.descanso-section .btn-get-started {
+  color: #123727;
+  background: #FEB648;
+  border: 2px solid #123727;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 40px;
+  border-radius: 4px;
+  transition: 0.5s;
+  box-shadow: 0px 0 18px color-mix(in srgb, #000, transparent 85%);
+}
+
+.descanso-section .btn-get-started:hover {
+  color: #123727;
+  background: color-mix(in srgb, #F5EEE5, transparent 0%);
+
+}
+
+.h2-descanso {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #123727;
+}
+
+.p-descanso {
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #98461B;
 }
 
 .hero .btn-watch-video {
@@ -1372,6 +1451,7 @@ section,
 .icon-grid-six {
   width: 44px;
   height: 44px;
+  margin: 0px 20px 0px 0px;
 }
 
 
@@ -1433,7 +1513,7 @@ section,
 # Pricing Section
 --------------------------------------------------------------*/
 .pricing .pricing-tem {
-  box-shadow: 0px 0 30px color-mix(in srgb, var(--default-color), transparent 90%);
+  /*box-shadow: 0px 0 30px color-mix(in srgb, var(--default-color), transparent 90%);*/
   padding: 40px 20px;
   text-align: center;
   border-radius: 4px;
@@ -1442,8 +1522,8 @@ section,
   transition: 0.3s;
   height: 100%;
   /*background-color: #D7B898;*/
-  background-image: url(/assets/img/cards-talleres-planticidad.png);
-  background-size: cover ;
+  background-image: url(../img/cards-talleres-planticidad.png);
+  background-size: cover;
 }
 
 .pricing{
@@ -1529,7 +1609,7 @@ section,
 }
 
 .pricing .btn-buy:hover {
-  background: #FFC977;
+  background: #FEB648;
   color:#123727;
 }
 
@@ -1558,7 +1638,9 @@ section,
   overflow: hidden;
   transition: 0.3s;
   height: 100%;
-  background-color: #D7B898;
+  background-color: #e0dcd69d;
+  background-image: url(../img/cards-talleres-planticidad.png);
+  background-size: cover
 }
 
 .mastalleres{
@@ -1644,7 +1726,7 @@ section,
 }
 
 .mastalleres .btn-buy:hover {
-  background: #FFC977;
+  background: #FEB648;
   color:#123727;
 }
 
@@ -1976,7 +2058,6 @@ section,
 .testimonials .testimonial-item .testimonial-img {
   width: 90px;
   border-radius: 50%;
-  border: 4px solid var(--background-color);
   margin: 0 auto;
 }
 
@@ -2014,7 +2095,7 @@ section,
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: var(--accent-color);
+  background-color: #98461B;
 }
 
 .testimonials .swiper-slide {
@@ -2033,6 +2114,13 @@ section,
   .testimonials .testimonial-item {
     margin: 40px 20px;
   }
+}
+
+.h4-testimonio-bajada {
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
 @media (min-width: 1200px) {
