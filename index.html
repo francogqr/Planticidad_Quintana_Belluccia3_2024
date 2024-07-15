@@ -168,18 +168,17 @@ Roboto: CSS classes
       <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="#hero" class="active">INICIO<br></a></li>
-          <li><a href="#about">SERVICIOS</a></li>
-          <li><a href="#services">TALLER</a></li>
-          <li><a href="#portfolio">EQUIPO</a></li>
-          <li><a href="#team">BLOG</a></li>
-          <li><a href="blog.html">CONTACTO</a></li>
+          <li><a href="#services">SERVICIOS</a></li>
+          <li><a href="#introtalleres">TALLER</a></li>
+          <li><a href="#team">EQUIPO</a></li>
+          <li><a href="#contact">CONTACTO</a></li>
             
-
+          
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
-      <a class="btn-getstarted flex-md-shrink-0" href="index.html#about">Explorar talleres</a>
+      <a class="btn-getstarted flex-md-shrink-0" href="index.html#pricing">Explorar talleres</a>
 
     </div>
   </header>
@@ -198,7 +197,7 @@ Roboto: CSS classes
             <h1 data-aos="fade-up">Transformá tu espacio en un Oasis Verde</h1>
             <p data-aos="fade-up" data-aos-delay="100">En Planticidad, creamos huertos personalizados en espacios urbanos. Descubre cómo podemos ayudarte a cultivar tu propio jardín, sin importar el tamaño de tu espacio.</p>
             <div class="d-flex flex-column flex-md-row" data-aos="fade-up" data-aos-delay="200">
-              <a href="#about" class="btn-get-started">Conocé más <i class="bi bi-arrow-right"></i></a>
+              <a href="#services" class="btn-get-started">Conocé más <i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
           <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-out">
@@ -227,7 +226,8 @@ Roboto: CSS classes
               <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
                 <div class="service-item item-cyan position-relative">
                   <!--<i class="bi bi-activity icon" ></i>-->
-                  <img src="assets/img/icons/h-i1.png" alt="" class="icon-services">
+                  <div class="img-fluid iconito" id="icono1"></div>
+                  <!--<img src="assets/img/icons/h-i1.png" alt="" class="icon-services">-->
                   <h3>Diseño Personalizado</h3>
                   <p>Analizamos tu espacio y diseñamos un huerto a medida.</p>
                 </div>
@@ -236,7 +236,8 @@ Roboto: CSS classes
               <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
                 <div class="service-item item-orange position-relative">
                   <!--<i class="bi bi-broadcast icon"></i>-->
-                  <img src="assets/img/icons/h-i2.png" alt="" class="icon-services">
+                  <div class="img-fluid iconito" id="icono2"></div>
+                  <!--<img src="assets/img/icons/h-i2.png" alt="" class="icon-services">-->
                   <h3>Instalación Profesional</h3>
                   <p>Nos encargamos de la instalación completa de tu huerto.</p>
                 </div>
@@ -245,7 +246,8 @@ Roboto: CSS classes
               <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
                 <div class="service-item item-teal position-relative">
                   <!--<i class="bi bi-easel icon"></i>-->
-                  <img src="assets/img/icons/h-i3.png" alt="" class="icon-services">
+                  <div class="img-fluid iconito" id="icono3"></div>
+                  <!--<img src="assets/img/icons/h-i3.png" alt="" class="icon-services">-->
                   <h3>Asesoría y Mantenimiento</h3>
                   <p>Te brindamos soporte continuo para el cuidado de tu huerto.</p>
                 </div>
@@ -351,7 +353,7 @@ Roboto: CSS classes
                 <h1 data-aos="fade-up">Conviértete en un Experto en Jardinería Urbana</h1>
                 <p data-aos="fade-up" data-aos-delay="100">Nuestros talleres te enseñarán todo lo necesario para crear y mantener tu propio huerto en casa.</p>
                 <div class="d-flex flex-column flex-md-row" data-aos="fade-up" data-aos-delay="200">
-                  <a href="#about" class="btn-get-started">Ver Talleres<i class="bi bi-arrow-right"></i></a>
+                  <a href="#pricing" class="btn-get-started">Ver Talleres<i class="bi bi-arrow-right"></i></a>
                   <!-- <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox btn-watch-video d-flex align-items-center justify-content-center ms-0 ms-md-4 mt-4 mt-md-0"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>-->
                 </div>
               </div>
@@ -391,7 +393,7 @@ Roboto: CSS classes
                 <!--<li class="na">Pharetra massa</li>
                 <li class="na">Massa ultricies mi</li>-->
               </ul>
-              <a href="#" class="btn-buy">Ver más detalles</a>
+              <a href=taller.html class="btn-buy">Ver más detalles</a>
             </div>
           </div><!-- End Pricing Item -->
 
@@ -426,7 +428,7 @@ Roboto: CSS classes
                 <li>Mié (10 a 12)</li>
                 <li>Empieza 22/07/2024</li>
               </ul>
-              <a href="#" class="btn-buy">Ver más detalles</a>
+              <a href=taller.html class="btn-buy">Ver más detalles</a>
             </div>
           </div><!-- End Pricing Item -->
 
@@ -443,7 +445,7 @@ Roboto: CSS classes
                 <li>Sáb (09 a 12)</li>
                 <li>Empieza 20/07/2024</li>
               </ul>
-              <a href="#" class="btn-buy">Ver más detalles</a>
+              <a href=taller.html class="btn-buy">Ver más detalles</a>
             </div>
           </div><!-- End Pricing Item -->
 
@@ -455,6 +457,12 @@ Roboto: CSS classes
 
     <!-- #6 MARCAS QUE COLABORAN -->
     <section id="clients" class="clients section">
+
+            <!-- Section Title -->
+            <div class="container section-title" data-aos="fade-up">
+              <h2 class="section-title-yellow">CLIENTES</h2>
+              <p class="title-section-green">Marcas que confían en nosotros<br></p>
+            </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
@@ -502,7 +510,7 @@ Roboto: CSS classes
             <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid" alt=""></div>
             <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid" alt=""></div>
           </div>
-          <div class="swiper-pagination"></div>
+          <!--<div class="swiper-pagination"></div>-->
         </div>
 
       </div>
@@ -649,12 +657,11 @@ Roboto: CSS classes
                   <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
                 <p>
-                  El equipo de Planticidad es muy profesional y amable. Mi huerto está floreciendo gracias a ellos.
-                </p>
+                  Che, los pibes de Planticidad son unos capos. Me diseñaron un huertito que parece sacado de una revista. Encima te explican todo con una onda bárbara. No te arrepentís ni un poquito. ¡Gracias por tanta magia, muchachos!
                 <div class="profile mt-auto">
                   <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                  <h3>Carlos González</h3>
-                  <h4 class="h4-testimonio-bajada">Córdoba, Argentina</h4>
+                  <h3>Pablo Martínez</h3>
+                  <h4 class="h4-testimonio-bajada">Florida, Buenos Aires</h4>
                 </div>
               </div>
             </div><!-- End testimonial item -->
@@ -665,12 +672,12 @@ Roboto: CSS classes
                   <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
                 <p>
-                  El equipo de Planticidad es muy profesional y amable. Mi huerto está floreciendo gracias a ellos.
+                  La verdad que Planticidad me salvó. Vine sin saber ni cómo plantar un tomate y ahora tengo un mini oasis en el patio. La instalación fue rapidísima y quedó impecable. ¡Son unos genios!
                 </p>
                 <div class="profile mt-auto">
                   <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                  <h3>Carlos González</h3>
-                  <h4 class="h4-testimonio-bajada">Córdoba, Argentina</h4>
+                  <h3>Mariana López</h3>
+                  <h4 class="h4-testimonio-bajada">Rosario, Santa Fe</h4>
                 </div>
               </div>
             </div><!-- End testimonial item -->
@@ -681,12 +688,12 @@ Roboto: CSS classes
                   <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
                 <p>
-                  Planticidad transformó mi balcón en un jardín urbano maravilloso. ¡Súper recomendados!
+                  Si querés un huerto en casa, estos flacos son la posta. Te arman todo a medida y se encargan de cada detalle. Y lo mejor, te enseñan todo para que no te quedes en bolas. ¡Aguante Planticidad!
                 </p>
                 <div class="profile mt-auto">
                   <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                  <h3>Juan Pérez</h3>
-                  <h4 class="h4-testimonio-bajada">Buenos Aires, Argentina</h4>
+                  <h3>Diego Gómez</h3>
+                  <h4 class="h4-testimonio-bajada">La Plata, Buenos Aires</h4>
                 </div>
               </div>
             </div><!-- End testimonial item -->
@@ -697,12 +704,12 @@ Roboto: CSS classes
                   <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
                 <p>
-                  Los talleres de Planticidad son increíblemente útiles. Ahora tengo mi propia huerta en casa.
+                  Me metí en uno de los talleres de Planticidad y fue una experiencia increíble. Los profes son unos fenómenos y aprendí bocha. Ahora tengo mi propio huerto y no puedo estar más feliz. ¡Se pasaron!
                 </p>
                 <div class="profile mt-auto">
                   <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                  <h3>María López</h3>
-                  <h4 class="h4-testimonio-bajada">Rosario, Argentina</h4>
+                  <h3>Laura Torres</h3>
+                  <h4 class="h4-testimonio-bajada">Mar del Plata, Buenos Aires</h4>
                 </div>
               </div>
             </div><!-- End testimonial item -->
@@ -713,12 +720,12 @@ Roboto: CSS classes
                   <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
                 <p>
-                  Los talleres de Planticidad son increíblemente útiles. Ahora tengo mi propia huerta en casa.
+                  Planticidad me cambió la vida. Tenía un espacio re chiquito y no sabía qué hacer. Ellos me diseñaron un huertito espectacular y me enseñaron todo para mantenerlo. ¡Unos cracks totales chango!
                 </p>
                 <div class="profile mt-auto">
                   <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                  <h3>María López</h3>
-                  <h4 class="h4-testimonio-bajada">Rosario, Argentina</h4>
+                  <h3>Nicolás Fernández</h3>
+                  <h4 class="h4-testimonio-bajada">San Miguel de Tucumán, Tucumán</h4>
                 </div>
               </div>
             </div><!-- End testimonial item -->
@@ -737,131 +744,19 @@ Roboto: CSS classes
       <div class="container">
         <div class="row gy-4">
           <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
-            <h2 class="h2-descanso" data-aos="fade-up">“Cultivar un jardín es creer en el mañana.”</h1>
+            <h1 data-aos="fade-up">“Cultivar un jardín es creer en el mañana.”</h1>
             <p class="p-descanso" data-aos="fade-up" data-aos-delay="100">Lucía Gómez</p>
             <div class="d-flex flex-column flex-md-row" data-aos="fade-up" data-aos-delay="200">
               </div>
           </div>
-          <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-out">
           
-          </div>
         </div>
       </div>
 
     </section><!-- /Hero Section -->
 
-    <!-- #10 BLOG -->
-    <section id="recent-posts" class="recent-posts section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2 class="section-title-red">BLOG</h2>
-        <p class="title-section-white">Posteos recientes</p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="row gy-5">
-
-          <div class="col-xl-4 col-md-6">
-            <div class="post-item position-relative h-100" data-aos="fade-up" data-aos-delay="100">
-
-              <div class="post-img position-relative overflow-hidden">
-                <img src="assets/img/blog/blog-1.jpg" class="img-fluid" alt="">
-                <span class="post-date">12 MAYO 2024</span>
-              </div>
-
-              <div class="post-content d-flex flex-column">
-
-                <h3 class="post-title">Consejos para Iniciar tu Huerto Urbano</h3>
-
-                <div class="meta d-flex align-items-center">
-                  <div class="d-flex align-items-center">
-                    <i class="bi bi-person"></i> <span class="ps-2">Laura Sánchez</span>
-                  </div>
-                  <span class="px-3 text-black-50">/</span>
-                  <div class="d-flex align-items-center">
-                    <i class="bi bi-folder2"></i> <span class="ps-2">Tips</span>
-                  </div>
-                </div>
-                <hr>
-                <a href="blog-details.html" class="readmore stretched-link"><span>Leer más</span><i class="bi bi-arrow-right"></i></a>
-
-              </div>
-
-            </div>
-          </div><!-- End post item -->
-
-          <div class="col-xl-4 col-md-6">
-            <div class="post-item position-relative h-100" data-aos="fade-up" data-aos-delay="200">
-
-              <div class="post-img position-relative overflow-hidden">
-                <img src="assets/img/blog/blog-2.jpg" class="img-fluid" alt="">
-                <span class="post-date">6 JUNIO 2024</span>
-              </div>
-
-              <div class="post-content d-flex flex-column">
-
-                <h3 class="post-title">Las Mejores Plantas para Espacios Reducidos</h3>
-
-                <div class="meta d-flex align-items-center">
-                  <div class="d-flex align-items-center">
-                    <i class="bi bi-person"></i> <span class="ps-2">Christian Peña</span>
-                  </div>
-                  <span class="px-3 text-black-50">/</span>
-                  <div class="d-flex align-items-center">
-                    <i class="bi bi-folder2"></i> <span class="ps-2">Consejos</span>
-                  </div>
-                </div>
-
-                <hr>
-
-                <a href="blog-details.html" class="readmore stretched-link"><span>Leer más</span><i class="bi bi-arrow-right"></i></a>
-
-              </div>
-
-            </div>
-          </div><!-- End post item -->
-
-          <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="post-item position-relative h-100">
-
-              <div class="post-img position-relative overflow-hidden">
-                <img src="assets/img/blog/blog-3.jpg" class="img-fluid" alt="">
-                <span class="post-date">11 JULIO 2024</span>
-              </div>
-
-              <div class="post-content d-flex flex-column">
-
-                <h3 class="post-title">Cómo Hacer Compostaje en Casa</h3>
-
-                <div class="meta d-flex align-items-center">
-                  <div class="d-flex align-items-center">
-                    <i class="bi bi-person"></i> <span class="ps-2">Lisa Ramírez</span>
-                  </div>
-                  <span class="px-3 text-black-50">/</span>
-                  <div class="d-flex align-items-center">
-                    <i class="bi bi-folder2"></i> <span class="ps-2">Tips</span>
-                  </div>
-                </div>
-
-                <hr>
-
-                <a href="blog-details.html" class="readmore stretched-link"><span>Leer más</span><i class="bi bi-arrow-right"></i></a>
-
-              </div>
-
-            </div>
-          </div><!-- End post item -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Recent Posts Section -->
-
-    <!-- #11 NEWSLETTER -->
-    <footer id="footer" class="footer">
+    <!-- #10 NEWSLETTER -->
+    <footer id="newsletter" class="newsletter">
 
       <div class="footer-newsletter">
         <div class="container">
@@ -881,7 +776,7 @@ Roboto: CSS classes
       </div>  
     </footer>
 
-        <!-- #12 PREGUNTAS FRECUENTES -->
+        <!-- #11 PREGUNTAS FRECUENTES -->
         <section id="faq" class="faq section">
 
           <!-- Section Title -->
@@ -901,7 +796,7 @@ Roboto: CSS classes
                   <div class="faq-item faq-active">
                     <h3>¿Qué tipos de plantas puedo cultivar en un espacio reducido?</h3>
                     <div class="faq-content">
-                      <p>Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p>
+                      <p>En un espacio reducido, puedes cultivar una amplia variedad de plantas, incluyendo hierbas aromáticas como albahaca, perejil y cilantro, vegetales de hoja como lechuga y espinaca, y pequeños frutos como tomates cherry y fresas. También puedes optar por plantas trepadoras y enredaderas para maximizar el uso vertical del espacio.</p>
                     </div>
                     <i class="faq-toggle bi bi-chevron-right"></i>
                   </div><!-- End Faq item-->
@@ -909,7 +804,7 @@ Roboto: CSS classes
                   <div class="faq-item">
                     <h3>¿Los talleres son presenciales o en línea?</h3>
                     <div class="faq-content">
-                      <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
+                      <p>Los talleres que ofrecemos son presenciales, brindándote una experiencia práctica y directa con los expertos. Sin embargo, también estamos trabajando para ofrecer opciones en línea para que puedas aprender desde la comodidad de tu hogar. Mantente atento a nuestras actualizaciones para más información.</p>
                     </div>
                     <i class="faq-toggle bi bi-chevron-right"></i>
                   </div><!-- End Faq item-->
@@ -917,7 +812,7 @@ Roboto: CSS classes
                   <div class="faq-item">
                     <h3>¿Ofrecen mantenimiento para los huertos?</h3>
                     <div class="faq-content">
-                      <p>Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis</p>
+                      <p>Sí, ofrecemos servicios de mantenimiento para asegurarnos de que tu huerto se mantenga saludable y productivo. Nuestro equipo de expertos realizará visitas periódicas para evaluar el estado de las plantas, aplicar fertilizantes, controlar plagas y enfermedades, y realizar cualquier ajuste necesario.</p>
                     </div>
                     <i class="faq-toggle bi bi-chevron-right"></i>
                   </div><!-- End Faq item-->
@@ -933,7 +828,7 @@ Roboto: CSS classes
                   <div class="faq-item">
                     <h3>¿Qué incluye el diseño personalizado?</h3>
                     <div class="faq-content">
-                      <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
+                      <p>El diseño personalizado incluye una consulta inicial para entender tus necesidades y el espacio disponible, seguido de un plan detallado que incluye la selección de plantas adecuadas, el diseño del huerto, y un esquema de instalación. También ofrecemos recomendaciones sobre sistemas de riego y compostaje para optimizar el cuidado de tu huerto.</p>
                     </div>
                     <i class="faq-toggle bi bi-chevron-right"></i>
                   </div><!-- End Faq item-->
@@ -941,7 +836,7 @@ Roboto: CSS classes
                   <div class="faq-item">
                     <h3>¿Puedo participar en los talleres si no tengo experiencia previa?</h3>
                     <div class="faq-content">
-                      <p>Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in</p>
+                      <p>Por supuesto, te recomendamos tomar los talleres de Nivel Introductorio o Completo, sya que los de Nivel Intermedio o Avanzado requerirán de experiencia previa.</p>
                     </div>
                     <i class="faq-toggle bi bi-chevron-right"></i>
                   </div><!-- End Faq item-->
@@ -949,7 +844,7 @@ Roboto: CSS classes
                   <div class="faq-item">
                     <h3>¿Qué materiales necesito para comenzar?</h3>
                     <div class="faq-content">
-                      <p>Enim ea facilis quaerat voluptas quidem et dolorem. Quis et consequatur non sed in suscipit sequi. Distinctio ipsam dolore et.</p>
+                      <p>Te los brindamos nosotros, con la adquisición del taller tienes a disposición tu kit de estudiante, para utilizar en las clases presenciales en nuestras instalaciones.</p>
                     </div>
                     <i class="faq-toggle bi bi-chevron-right"></i>
                   </div><!-- End Faq item-->
@@ -964,7 +859,7 @@ Roboto: CSS classes
     
         </section><!-- /Faq Section -->
 
-            <!-- #13 CONTACTO -->
+            <!-- #12 CONTACTO -->
     <section id="contact" class="contact section">
 
       <!-- Section Title -->
@@ -1061,7 +956,7 @@ Roboto: CSS classes
   </main>
   
 
-  <!-- #14 FOOTER -->
+  <!-- #13 FOOTER -->
   <footer id="footer" class="footer">
 
     <!--<div class="footer-newsletter">
