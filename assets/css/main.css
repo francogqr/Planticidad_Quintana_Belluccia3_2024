@@ -473,7 +473,7 @@ h2 {
 # Global Footer
 --------------------------------------------------------------*/
 .footer {
-  background: url(/assets/img/footer-background.png);
+  background: url(../assets/img/footer-background.png);
   color: var(--default-color);
   background-color: #E0D0BA;
   font-size: 14px;
@@ -496,7 +496,7 @@ h2 {
   border-top: 1px solid color-mix(in srgb, var(--accent-color), transparent 85%);
   border-bottom: 1px solid color-mix(in srgb, var(--accent-color), transparent 85%);*/
   padding: 70px 0;
-  background: url(/assets/img/newsletter-planticidad.png);
+  background: url(../img/newsletter-planticidad.png);
   background-size: cover;
 }
 
@@ -1227,7 +1227,7 @@ section,
     padding: 0px 0 500px 0;
     display: flex;
     align-items: center;
-    background: url(/assets/img/hero_home_mobile.png) top center no-repeat;
+    background: url(../img/hero_home_mobile.png) top center no-repeat;
     background-size: cover;
     background-position: bottom;
     background-color: #123727;
@@ -1922,7 +1922,7 @@ section,
 # MÓDULOS Section
 --------------------------------------------------------------*/
 .modulo {
-  background: url(/assets/img/modulos-taller-background.png) top center no-repeat;
+  background: url(../img/modulos-taller-background.png) top center no-repeat;
   background-size: cover;
   background-color: #D7B898;
   padding: 100px 0 150px 0;
@@ -2238,7 +2238,7 @@ section,
 }
 
 .team {
-  background: url(/assets/img/background-endgreen.png);
+  background: url(../img/background-endgreen.png);
   background-size: cover;
   background-color: #123727;
   background-position: bottom;
@@ -3219,7 +3219,7 @@ section,
 }
 
 #icono1 {
-  background-image: url(/assets/img/icons/h-i1.png);
+  background-image: url(../img/icons/h-i1.png);
   background-repeat: no-repeat;
   width: 150px;
   height: 150px;
@@ -3229,7 +3229,7 @@ section,
 }
 
 #icono1:hover {
-  background-image: url(/assets/img/icons/h-i1-hover.png);
+  background-image: url(../img/icons/h-i1-hover.png);
   background-repeat: no-repeat;
   width: 150px;
   height: 150px;
@@ -3239,7 +3239,7 @@ section,
 }
 
 #icono2 {
-  background-image: url(/assets/img/icons/h-i2.png);
+  background-image: url(../img/icons/h-i2.png);
   background-repeat: no-repeat;
   width: 150px;
   height: 150px;
@@ -3249,7 +3249,7 @@ section,
 }
 
 #icono2:hover {
-  background-image: url(/assets/img/icons/h-i2-hover.png);
+  background-image: url(../img/icons/h-i2-hover.png);
   background-repeat: no-repeat;
   width: 150px;
   height: 150px;
@@ -3259,7 +3259,7 @@ section,
 }
 
 #icono3 {
-  background-image: url(/assets/img/icons/h-i3.png);
+  background-image: url(../img/icons/h-i3.png);
   background-repeat: no-repeat;
   width: 150px;
   height: 150px;
@@ -3269,7 +3269,7 @@ section,
 }
 
 #icono3:hover {
-  background-image: url(/assets/img/icons/h-i3-hover.png);
+  background-image: url(../img/icons/h-i3-hover.png);
   background-repeat: no-repeat;
   width: 150px;
   height: 150px;
@@ -3279,7 +3279,7 @@ section,
 }
 
 #icono4 {
-  background-image: url(/assets/img/icons/t-i1.png);
+  background-image: url(../img/icons/t-i1.png);
   background-repeat: no-repeat;
   width: 150px;
   height: 150px;
@@ -3289,7 +3289,7 @@ section,
 }
 
 #icono4:hover {
-  background-image: url(/assets/img/icons/t-i1-hover.png);
+  background-image: url(../img/icons/t-i1-hover.png);
   background-repeat: no-repeat;
   width: 150px;
   height: 150px;
@@ -3299,7 +3299,7 @@ section,
 }
 
 #icono5 {
-  background-image: url(/assets/img/icons/t-i2.png);
+  background-image: url(../img/icons/t-i2.png);
   background-repeat: no-repeat;
   width: 150px;
   height: 150px;
@@ -3309,7 +3309,7 @@ section,
 }
 
 #icono5:hover {
-  background-image: url(/assets/img/icons/t-i2-hover.png);
+  background-image: url(../img/icons/t-i2-hover.png);
   background-repeat: no-repeat;
   width: 150px;
   height: 150px;
@@ -3319,7 +3319,7 @@ section,
 }
 
 #icono6 {
-  background-image: url(/assets/img/icons/t-i3.png);
+  background-image: url(../img/icons/t-i3.png);
   background-repeat: no-repeat;
   width: 150px;
   height: 150px;
@@ -3329,7 +3329,7 @@ section,
 }
 
 #icono6:hover {
-  background-image: url(/assets/img/icons/t-i3-hover.png);
+  background-image: url(../img/icons/t-i3-hover.png);
   background-repeat: no-repeat;
   width: 150px;
   height: 150px;
