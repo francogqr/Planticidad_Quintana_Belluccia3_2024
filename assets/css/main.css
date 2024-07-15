@@ -2242,6 +2242,7 @@ section,
   background-size: cover;
   background-color: #123727;
   background-position: bottom;
+  padding: 60px 0 120px 0;
 }
 
 .team .team-member .member-img {
